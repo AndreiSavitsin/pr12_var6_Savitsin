@@ -1,5 +1,4 @@
-﻿
-namespace pr12_var6_Savitsin
+﻿namespace pr12_var6_Savitsin
 {
     partial class Form1
     {
@@ -29,90 +28,71 @@ namespace pr12_var6_Savitsin
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.SuspendLayout();
+            btnBuy = new Button();
+            btnInfo = new Button();
+            btnMood = new Button();
+            dataGridView1 = new DataGridView();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            SuspendLayout();
             // 
-            // textBox1
+            // btnBuy
             // 
-            this.textBox1.Location = new System.Drawing.Point(155, 55);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.PlaceholderText = "Введите название товара";
-            this.textBox1.Size = new System.Drawing.Size(195, 23);
-            this.textBox1.TabIndex = 0;
+            btnBuy.Location = new Point(270, 448);
+            btnBuy.Name = "btnBuy";
+            btnBuy.Size = new Size(213, 29);
+            btnBuy.TabIndex = 5;
+            btnBuy.Text = "Купить";
+            btnBuy.UseVisualStyleBackColor = true;
+            btnBuy.Click += btnBuy_Click;
             // 
-            // textBox2
+            // btnInfo
             // 
-            this.textBox2.Location = new System.Drawing.Point(155, 99);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.PlaceholderText = "Введите цену";
-            this.textBox2.Size = new System.Drawing.Size(195, 23);
-            this.textBox2.TabIndex = 1;
+            btnInfo.Location = new Point(508, 448);
+            btnInfo.Name = "btnInfo";
+            btnInfo.Size = new Size(213, 29);
+            btnInfo.TabIndex = 7;
+            btnInfo.Text = "Информация";
+            btnInfo.UseVisualStyleBackColor = true;
+            btnInfo.Click += btnInfo_Click;
             // 
-            // textBox3
+            // btnMood
             // 
-            this.textBox3.Location = new System.Drawing.Point(155, 141);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.PlaceholderText = "Введите количество";
-            this.textBox3.Size = new System.Drawing.Size(195, 23);
-            this.textBox3.TabIndex = 2;
+            btnMood.Location = new Point(749, 448);
+            btnMood.Name = "btnMood";
+            btnMood.Size = new Size(213, 29);
+            btnMood.TabIndex = 8;
+            btnMood.Text = "Настроение";
+            btnMood.UseVisualStyleBackColor = true;
+            btnMood.Click += btnMood_Click;
             // 
-            // textBox4
+            // dataGridView1
             // 
-            this.textBox4.Location = new System.Drawing.Point(155, 184);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.PlaceholderText = "Введите кошелёк";
-            this.textBox4.Size = new System.Drawing.Size(195, 23);
-            this.textBox4.TabIndex = 3;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(155, 224);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.PlaceholderText = "Введите настроение";
-            this.textBox5.Size = new System.Drawing.Size(195, 23);
-            this.textBox5.TabIndex = 4;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(155, 281);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(195, 23);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "Купить";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Location = new Point(87, 12);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.RowHeadersWidth = 51;
+            dataGridView1.Size = new Size(1041, 413);
+            dataGridView1.TabIndex = 9;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1273, 619);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Name = "Form1";
-            this.Text = "Form1";
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(1185, 614);
+            Controls.Add(dataGridView1);
+            Controls.Add(btnMood);
+            Controls.Add(btnInfo);
+            Controls.Add(btnBuy);
+            Name = "Form1";
+            Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ResumeLayout(false);
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.Button button1;
+        private Button btnBuy;
+        private Button btnInfo;
+        private Button btnMood;
+        private DataGridView dataGridView1;
     }
 }
-

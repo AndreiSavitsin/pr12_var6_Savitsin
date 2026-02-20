@@ -1,0 +1,16 @@
+D:\projects\pr12_var6_Savitsin\bin\Debug\net8.0-windows\pr12_var6_Savitsin.exe
+D:\projects\pr12_var6_Savitsin\bin\Debug\net8.0-windows\pr12_var6_Savitsin.deps.json
+D:\projects\pr12_var6_Savitsin\bin\Debug\net8.0-windows\pr12_var6_Savitsin.runtimeconfig.json
+D:\projects\pr12_var6_Savitsin\bin\Debug\net8.0-windows\pr12_var6_Savitsin.dll
+D:\projects\pr12_var6_Savitsin\bin\Debug\net8.0-windows\pr12_var6_Savitsin.pdb
+D:\projects\pr12_var6_Savitsin\obj\Debug\net8.0-windows\pr12_var6_Savitsin.Form1.resources
+D:\projects\pr12_var6_Savitsin\obj\Debug\net8.0-windows\pr12_var6_Savitsin.csproj.GenerateResource.cache
+D:\projects\pr12_var6_Savitsin\obj\Debug\net8.0-windows\pr12_var6_Savitsin.GeneratedMSBuildEditorConfig.editorconfig
+D:\projects\pr12_var6_Savitsin\obj\Debug\net8.0-windows\pr12_var6_Savitsin.AssemblyInfoInputs.cache
+D:\projects\pr12_var6_Savitsin\obj\Debug\net8.0-windows\pr12_var6_Savitsin.AssemblyInfo.cs
+D:\projects\pr12_var6_Savitsin\obj\Debug\net8.0-windows\pr12_var6_Savitsin.csproj.CoreCompileInputs.cache
+D:\projects\pr12_var6_Savitsin\obj\Debug\net8.0-windows\pr12_var6_Savitsin.dll
+D:\projects\pr12_var6_Savitsin\obj\Debug\net8.0-windows\refint\pr12_var6_Savitsin.dll
+D:\projects\pr12_var6_Savitsin\obj\Debug\net8.0-windows\pr12_var6_Savitsin.pdb
+D:\projects\pr12_var6_Savitsin\obj\Debug\net8.0-windows\pr12_var6_Savitsin.genruntimeconfig.cache
+D:\projects\pr12_var6_Savitsin\obj\Debug\net8.0-windows\ref\pr12_var6_Savitsin.dll
